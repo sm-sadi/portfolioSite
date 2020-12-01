@@ -18,9 +18,8 @@ skillPage.addEventListener("click" , function(){
          <h1 class="display-4 text-uppercase text-dark mb-0 animate__animated animate__pulse animate__infinite ">
          <strong>Skills</strong> 
          </h1>
-         <div class="title-underline bg-dark py-2"></div>
-           <p class="text-capitalize text-muted mt-2">my skill</p>
-         
+         <div class=" bg-dark p-1"></div>
+ 
        </div>
      </div>
    <!--end of skill title -->
@@ -30,19 +29,17 @@ skillPage.addEventListener("click" , function(){
          
          <h3 class="text-uppercase my-1 ">Tech skill </h3>
          <div class="title-underline bg-secondary p-1 "></div>
-         <p class="text-muted">
-           This section is to show my Tech skills
-         </p>
-         <h3 ><i class="fas fa-file-code text-primary"></i> Html</h3>
-         <h3 ><i class="fas fa-file-code text-primary"></i> CSS</h3>
-         <h3 ><i class="fas fa-file-code text-primary"></i> Bootstrap</h3>
-         <h3 ><i class="fa fa-star text-success"></i> JavaScript</h3>
+         
+         <h3 ><i class="fab fa-html5 text-primary"></i> Html</h3>
+         <h3 ><i class="fab fa-css3-alt text-danger"></i> CSS</h3>
+         <h3 ><i class="fab fa-bootstrap text-primary"></i> Bootstrap</h3>
+         <h3 ><i class="fab fa-js-square text-success"></i> JavaScript</h3>
          <h3 ><i class="fa fa-plus text-primary"></i> RWD</h3>
          <h3 ><i class="fa fa-database text-primary"></i> MYSQL DB</h3>
          <h3 ><i class="fa fa-file-image text-warning"></i> photoshop</h3>
-         <h3  ><i class="fa fa-file-image text-warning"></i> Figma</h3>
-         <h3 ><i class="fa fa-plus text-info"></i> github</h3>
-         <h3 ><i class="fa fa-plus text-secondary"></i> git</h3>
+         <h3  ><i class="fab fa-figma text-danger"></i> Figma</h3>
+         <h3 ><i class="fab fa-github-square text-dark"></i> github</h3>
+         <h3 ><i class="fab fa-git-square text-secondary"></i> git</h3>
        </div>
        <!--end of first colom of skill -->
        
@@ -51,9 +48,7 @@ skillPage.addEventListener("click" , function(){
          
          <h3 class="text-uppercase my-1">soft skill</h3>
          <div class="title-underline bg-secondary p-1 "></div>
-         <p class="text-muted">
-           my soft skills  
-         </p>
+         
          <h3><i class="fa fa-check-square text-success"></i> Good communication </h3>
          <h3><i class="fa fa-check-square text-success"></i> Fluent in English  </h3>
          <h3><i class="fa fa-check-square text-success"></i> Problem solving </h3>
@@ -84,9 +79,12 @@ homePage.addEventListener("click" , function(){
             <h1 class="display-4 text-uppercase text-dark mb-0  animate__animated animate__pulse animate__infinite">
             <strong >Welcome</strong> 
             </h1>
-            <div class="title-underline bg-danger"></div>
+            
             <p class="text-dark" >Hello, <br> 
-            My name is Showaib Mehedi Sadi and I am a <em class="text-primary">junior frontend Developer</em> . I am looking for an opportunity to code design and learn new things. my regular goal is to code a minimum of at least 40 minutes a day in my free time. I am hoping to become a full stuck developer in the future. except these, I like riding a motorcycle, traveling, and watching movies.
+            My name is Showaib Mehedi Sadi and I am a <em class="text-primary">junior frontend Developer</em> . 
+            I am looking for an opportunity to code, design and learn new things. My regular goal is to code a minimum of at least 40 minutes a day and keep 
+           exploring new technologies  . I am hoping to become a full stuck developer in the future. except these, I like riding a motorcycle, 
+             traveling, and watching movies.
             </p>
         </section> 
         
@@ -100,106 +98,169 @@ contactPage.addEventListener("click" , function(){
     <!--title for contact section-->
   <div class="row  ">
    <div class="col text-center ">
-     <h1 class="display-4 text-uppercase text-dark mb-0">
+     <h1 class="display-3 text-uppercase text-dark mb-0">
      <strong>contact</strong> 
      </h1>
-     <div class="title-underline bg-primary"></div>
-       <p class="text-capitalize  mt-2">please use the form to conatact me</p>
+     <div class="title-underline bg-dark p-1 mx-4"></div>
+       <p class="text-capitalize  mt-2">Want to hire me ?</p>
    </div>
  </div>
  <!--end of contact title -->
  <div class="row ">
-   <div class="col-md-6 my-3 p-3 mx-auto">
+   <div class="col-md-6   mx-auto">
      <div class="card card-body bg-secondary">
-       <!--title for form-->
+       <!--title for contact-->
        <div class="card-title text-center text-white">
       <h2 class="text-capitalize"> why not send an email ?</h2>
-      <p>new user signIn</p>
+      <p class="text-dark">sadi.wsiiz@gmail.com</p>
      </div>
-     <!--end of title  for form-->
-     <form >
-       <!--name -->
-       <div class="form-group ">
-         <input type="text"  id="name" class="form-control form-control-lg" placeholder="name">
-       </div>
-       <!--email-->
-       <div class="form-group mt-3">
-         <input type="email"  id="email" class="form-control " placeholder="email">
-       </div>
-       <!--Phone-->
-       <div class="form-group mt-3">
-         <input type="text"  id="name" class="form-control form-control-lg"  placeholder="Text">
-       </div>
-       <!--input group-->
- 
- <button type="submit" class="btn btn-outline-dark btn-block">Send</button >
- 
-     </form>
+     <!--end of email-->
+     
      </div>
    
-   <!--end of google map -->
+   
  </div>
  
- </section> `;
+ </section>
+ <div class="row  ">
+  <div class="col-8 text-center mx-auto">
+    <h1 class="display-6 text-uppercase text-dark mb-0">
+    <strong>other links</strong> 
+    </h1>
+    
+    
+    <a class="text-primary px-2" target="_blank" href="https://github.com/sm-sadi">  
+      <i class="fab fa-github-square    fa-4x "></i> 
+    </a>
+    <a class="text-primary px-2" target="_blank" href="https://pl.linkedin.com/in/showaib-sadi">  
+      <i class="fab fa-linkedin        fa-4x"></i>
+    </a>
+    <a class="text-primary px-2"  target="_blank" href="https://twitter.com/sadimehedi">  
+      <i class="fab fa-twitter-square  fa-4x"></i>
+    </a>
+    
+
+    <div class="col p-1">
+      <p class="text-dark "  >  
+        <i class="fas fa-phone  fa-2x"></i> +48 733 787 436
+      </p>
+    </div>
+    <div class="col ">
+      <p class="text-primary " >  
+        <i class=" fas fa-envelope-square fa-2x"></i> sadi.wsiiz@gmail.com</p>
+    </div>
+    <div class="col ">
+      <p class="text-success " >  
+        <i class="fas fa-map-marker-alt fa-2x"></i> Kwiatkowskiego 5/19 , 35-311 Rzeszów, Poland</p>
+    </div>
+    
+  </div>
+`;
  }
  );
 
 
 // portfolio page 
 portfolio.addEventListener("click" , function(){
-  dynamicContents.innerHTML = `<section id="portfolio" class="p-2 ">
-  <div class="row mx-auto">
-    
-      <!-- first card -->
-    <div class="col-lg-4 col-sm-8 col-md-6 text-center mx-auto py-2 d-block ">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./project 1.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://sm-sadi.github.io/CV/" target="_blank" class="btn btn-primary">click to visit </a>
-        </div>
-      </div>
-    </div>
-      <!-- end of first card -->
-        <!-- first card -->
-    <div class="col-lg-4 col-sm-8 col-md-6 text-center mx-auto py-2 d-block">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./project2.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://sm-sadi.github.io/ccGenerator/index.html" target="_blank" class="btn btn-primary">click to visit </a>
-        </div>
-      </div>
-    </div>
-      <!-- end of first card -->
-        <!-- first card -->
-    <div class="col-lg-4 col-sm-8 col-md-6 text-center mx-auto py-2 d-block">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./project3.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="https://sm-sadi.github.io/counterProject/" target="_blank" class="btn btn-primary">click to visit </a>
-        </div>
-      </div>
-    </div>
-      <!-- end of first card -->
-      <!-- end of first card -->
-      <!-- first card -->
-  <div class="col-lg-4 col-sm-8 col-md-6 text-center mx-auto py-2 d-block">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="./project4.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="https://sm-sadi.github.io/diceGame/" target="_blank" class="btn btn-primary">click to visit </a>
-      </div>
-    </div>
-  </div>
-    <!-- end of first card -->
+  dynamicContents.innerHTML = ` <section class="portfolio">
+         
+  <div class="container">
+       <!-- heading  -->
+       <div class="row">
+           <div class="col text-center">
+               <h1 class="display-4 text-uppercase text-dark mb-0">Projects</h1>
+               <div class=" mx-auto title-underline bg-dark"></div>
+           </div>
+       </div>
+         <!-- end of heading -->
+         <div class="row ">
+             <!-- first card  -->
+             <div class="col-md-6 col-lg-4 my-3">
+                     <div class="card">
+                         <img  class="card-img-top" src="./project2.jpg" alt="first card">
+                         <div class="card-body mx-auto text-center">
+                             <h5 class="card-title text-capitalize"> Color Code Generator</h5>
+                             <p class="card-text"> generate random color with js ,then change background</p>
+                             <a href="https://sm-sadi.github.io/ccGenerator/index.html" target="_blank"> 
+                                 <button class="btn btn-primary"> visit</button>
+                             </a>
+                         </div>
+                     </div>
+             </div>
+             <!-- end of first card  -->
+             <!-- second card  -->
+             <div class="col-md-6 col-lg-4 my-3">
+                 <div class="card">
+                     <img  class="card-img-top" src="./project 1.jpg" alt="first card">
+                     <div class="card-body mx-auto text-center">
+                         <h5 class="card-title text-capitalize"> simple page</h5>
+                         <p class="card-text"> a simple site made with  just html and css only </p>
+                         <a href="https://sm-sadi.github.io/CV/ " target="_blank"> 
+                             <button class="btn btn-primary"> visit</button>
+                         </a>
+                     </div>
+                 </div>
+         </div>
+         <!-- end of second card  -->
+         <!-- third  card  -->
+         <div class="col-md-6 col-lg-4 my-3">
+             <div class="card">
+                 <img  class="card-img-top" src="./project3.jpg" alt="first card">
+                 <div class="card-body mx-auto text-center">
+                     <h5 class="card-title text-capitalize"> Number Counter</h5>
+                     <p class="card-text"> simple js aplication to count numbers </p>
+                     <a href="https://sm-sadi.github.io/counterProject/" target="_blank"> 
+                         <button class="btn btn-primary"> visit</button>
+                     </a>
+                 </div>
+             </div>
+     </div>
+     <!-- end of third card  -->
+     <!-- 4th card card  -->
+     <div class="col-md-6 col-lg-4 my-3">
+         <div class="card">
+             <img  class="card-img-top" src="./project4.jpg" alt="first card">
+             <div class="card-body mx-auto text-center">
+                 <h5 class="card-title text-capitalize"> Dice Game</h5>
+                 <p class="card-text"> dice game with HTML CSS JS   </p>
+                 <a href=""> 
+                     <button class="btn btn-primary"> visit</button>
+                 </a>
+             </div>
+         </div>
  </div>
+ <!-- end of 4th card  -->
+ <!-- 5th card  -->
+             <div class="col-md-6 col-lg-4 my-3">
+                 <div class="card">
+                     <img  class="card-img-top" src="./project5.jpg" alt="first card">
+                     <div class="card-body mx-auto text-center">
+                         <h5 class="card-title text-capitalize"> Random Dog from api</h5>
+                         <p class="card-text"> random dog images from an api  </p>
+                         <a href="https://sm-sadi.github.io/random-dog-photo-from-api/" target="_blank"> 
+                             <button class="btn btn-primary"> visit</button>
+                         </a>
+                     </div>
+                 </div>
+         </div>
+         <!-- end of 5th  card  -->
+         <!-- 6th card  -->
+         <div class="col-md-6 col-lg-4 my-3">
+             <div class="card">
+                 <img  class="card-img-top" src="./project6.jpg" alt="first card">
+                 <div class="card-body mx-auto text-center">
+                     <h5 class="card-title text-capitalize"> jokes api</h5>
+                     <p class="card-text"> random jokes from api </p>
+                     <a href="https://sm-sadi.github.io/Programming-jokes-from-api/" target="_blank"> 
+                         <button class="btn btn-primary"> visit</button>
+                     </a>
+                 </div>
+             </div>
+     </div>
+     <!-- end of 6th  card  -->
+         </div>
+  </div>
+
 </section>
        `;
 }
@@ -311,6 +372,14 @@ experience.addEventListener("click" , function(){
 // const sidebar= document.getElementById("sidebar")
 // navBtn.forEach(function(e){
 //  e.addEventListener("click" , function(){
-//    sidebar.classList.remove("active")
+//    console.log("I GOT CLICKED");
+//    sidebar.classList.add("active")
 //  })
 // })
+
+const sidebar= document.getElementById("sidebar");
+const sidebarCol= document.getElementById("sidebarCollapse");
+ sidebar.addEventListener("click" , function(){
+   sidebar.classList.toggle("active");
+   sidebarCol.classList.toggle("active")
+ })
