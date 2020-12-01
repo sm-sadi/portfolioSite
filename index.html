@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>SmSadi</title>
+    <title>Collapsible sidebar using Bootstrap 4</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -34,14 +34,14 @@
             </div>
 
             <ul class="list-unstyled components">
-                <p class="bg-dark">SHowaib  Sadi</p>
+                <p class="bg-dark">Showaib  Sadi</p>
                 <li class="">
                    
-                            <a class="nav-btn" id="homePage" href="#">Home </a>
+                            <a class="nav-btn active" id="homePage" href="#">Home </a>
                       
                 </li>
                 <li>
-                    <a id="skillsDetails" href="#">Skill</a>
+                    <a  class="nav-btn" id="skillsDetails" href="#">Skill</a>
                     <!-- drop down menu but i do not have content yet
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
                    
@@ -70,7 +70,7 @@
 
             <ul class="list-unstyled CTAs">
                 <li>
-                    <a class="nav-btn" href="https://drive.google.com/u/0/uc?id=1TeXpGbiWpkqTDaooqtzTFnhTd1NAo7uq&export=download" class="download" download="https://drive.google.com/u/0/uc?id=1TeXpGbiWpkqTDaooqtzTFnhTd1NAo7uq&export=download">Download CV</a>
+                    <a class="nav-btn" href="./CV.pdf" class="download" download="CV.pdf">Download CV</a>
                 </li>
                 
                   
@@ -97,7 +97,10 @@
                     <h1 class="display-4 text-uppercase text-dark mb-0  animate__animated animate__pulse animate__infinite">
                          Welcome</h1>
                          <p class="text-dark" >Hello, <br> 
-                            My name is Showaib Mehedi Sadi and I am a <em class="text-primary">junior frontend Developer</em> . I am looking for an opportunity to code design and learn new things. my regular goal is to code a minimum of at least 40 minutes a day in my free time. I am hoping to become a full stuck developer in the future. except these, I like riding a motorcycle, traveling, and watching movies.
+                            My name is Showaib Mehedi Sadi and I am a <em class="text-primary">junior frontend Developer</em> . 
+                            I am looking for an opportunity to code, design and learn new things. My regular goal is to code a minimum of at least 40 minutes a day and keep 
+                           exploring new technologies  . I am hoping to become a full stuck developer in the future. except these, I like riding a motorcycle, 
+                             traveling, and watching movies.
                             </p>
                 </div>
                
@@ -117,7 +120,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- font awesome kit  -->
+    <script src="https://kit.fontawesome.com/ec0fbcc289.js" crossorigin="anonymous"></script>
 
+    <!-- js for sidebar -->
     <script type="text/javascript">
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
