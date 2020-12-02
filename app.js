@@ -83,9 +83,16 @@ homePage.addEventListener("click" , function(){
             <p class="text-dark" >Hello, <br> 
             My name is Showaib Mehedi Sadi and I am a <em class="text-primary">junior frontend Developer</em> . 
             I am looking for an opportunity to code, design and learn new things. My regular goal is to code a minimum of at least 40 minutes a day and keep 
-           exploring new technologies  . I am hoping to become a full stuck developer in the future. except these, I like riding a motorcycle, 
+           exploring new technologies  . I am hoping to become a full stack developer in the future. except these, I like riding a motorcycle, 
              traveling, and watching movies.
             </p>
+            <br> <hr>
+                            <h6 class="display-5">  <Strong class="display-5">Education :</Strong>
+                                Wyższa Szkoła Informatyki i Zarządzania In Rzeszow, Poland.
+                            </h6>
+                            <p class="text-primary">Bachelor of information technology</p>
+                            <p class="text-dark">Expected graduation:  July 2021</p>
+
         </section> 
         
          `;
