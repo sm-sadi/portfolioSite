@@ -76,7 +76,7 @@ homePage.addEventListener("click" , function(){
       <div class="container">
         <div class="row  ">
           <div class="col text-center ">
-            <h1 class="display-4 text-uppercase text-dark mb-0  animate__animated animate__pulse animate__infinite">
+            <h1 class="display-4 text-uppercase text-dark mb-0 mx-auto w-50 animate__animated animate__pulse animate__infinite">
             <strong >Welcome</strong> 
             </h1>
             
