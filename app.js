@@ -168,6 +168,7 @@ contactPage.addEventListener("click" , function(){
 
 
 // portfolio page 
+                  // https://compressimage.toolur.com/ compress image with 348 * 263 px before adding new project 
 portfolio.addEventListener("click" , function(){
   dynamicContents.innerHTML = ` <section class="portfolio">
          
