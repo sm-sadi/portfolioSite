@@ -6,11 +6,13 @@ const homePage= document.getElementById("homePage");
 const contactPage = document.getElementById("contactPage");
 const portfolio = document.getElementById("portfo");
 const experience= document.getElementById("Experience");
+const contactData = document.getElementById("contactData");
 
 const dynamicContents = document.getElementById("dynamicContent");
 
 // skill page 
 skillPage.addEventListener("click" , function(){
+  contactData.classList.remove("showAfterClick")
    dynamicContents.innerHTML = ` <section id="skills" class="bg-white py-1">
    <div class="container">
      <div class="row">
@@ -71,6 +73,7 @@ skillPage.addEventListener("click" , function(){
 
 // homePage
 homePage.addEventListener("click" , function(){
+  contactData.classList.remove("showAfterClick")
     dynamicContents.innerHTML = `<!--start of home section -->
     <section id="skills" class="bg-white py-5">
       <div class="container">
@@ -101,68 +104,9 @@ homePage.addEventListener("click" , function(){
 
  //cotact page 
 contactPage.addEventListener("click" , function(){
-    dynamicContents.innerHTML = `<section id="contact" class=" py-2">
-    <!--title for contact section-->
-  <div class="row  ">
-   <div class="col text-center ">
-     <h1 class="display-3 text-uppercase text-dark mb-0">
-     <strong>contact</strong> 
-     </h1>
-     <div class="title-underline bg-dark p-1 mx-4"></div>
-       <p class="text-capitalize  mt-2">Want to hire me ?</p>
-   </div>
- </div>
- <!--end of contact title -->
- <div class="row ">
-   <div class="col-md-6   mx-auto">
-     <div class="card card-body bg-secondary">
-       <!--title for contact-->
-       <div class="card-title text-center text-white">
-      <h2 class="text-capitalize"> why not send an email ?</h2>
-      <p class="text-dark">sadi.wsiiz@gmail.com</p>
-     </div>
-     <!--end of email-->
-     
-     </div>
-   
-   
- </div>
- 
- </section>
- <div class="row  ">
-  <div class="col-8 text-center mx-auto">
-    <h1 class="display-6 text-uppercase text-dark mb-0">
-    <strong>other links</strong> 
-    </h1>
+  contactData.classList.add("showAfterClick")
+    dynamicContents.innerHTML = ``;
     
-    
-    <a class="text-primary px-2" target="_blank" href="https://github.com/sm-sadi">  
-      <i class="fab fa-github-square    fa-4x "></i> 
-    </a>
-    <a class="text-primary px-2" target="_blank" href="https://pl.linkedin.com/in/showaib-sadi">  
-      <i class="fab fa-linkedin        fa-4x"></i>
-    </a>
-    <a class="text-primary px-2"  target="_blank" href="https://twitter.com/sadimehedi">  
-      <i class="fab fa-twitter-square  fa-4x"></i>
-    </a>
-    
-
-    <div class="col p-1">
-      <p class="text-dark "  >  
-        <i class="fas fa-phone  fa-2x"></i> +48 733 787 436
-      </p>
-    </div>
-    <div class="col ">
-      <p class="text-primary " >  
-        <i class=" fas fa-envelope-square fa-2x"></i> sadi.wsiiz@gmail.com</p>
-    </div>
-    <div class="col ">
-      <p class="text-success " >  
-        <i class="fas fa-map-marker-alt fa-2x"></i> Kwiatkowskiego 5/19 , 35-311 Rzeszów, Poland</p>
-    </div>
-    
-  </div>
-`;
  }
  );
 
@@ -170,6 +114,7 @@ contactPage.addEventListener("click" , function(){
 // portfolio page 
                   // https://compressimage.toolur.com/ compress image with 348 * 263 px before adding new project 
 portfolio.addEventListener("click" , function(){
+  contactData.classList.remove("showAfterClick")
   dynamicContents.innerHTML = ` <section class="portfolio">
          
   <div class="container">
@@ -188,7 +133,7 @@ portfolio.addEventListener("click" , function(){
                          <img  class="card-img-top" src="./project2.jpg" alt="first card">
                          <div class="card-body mx-auto text-center">
                              <h5 class="card-title text-capitalize"> Color Code Generator</h5>
-                             <p class="card-text"> generate random color with js ,then change background</p>
+                             <p class="card-text">generate random color</p>
                              <a href="https://sm-sadi.github.io/ccGenerator/index.html" target="_blank"> 
                                  <button class="btn btn-primary"> visit</button>
                              </a>
@@ -202,7 +147,7 @@ portfolio.addEventListener("click" , function(){
                      <img  class="card-img-top" src="./project 1.jpg" alt="first card">
                      <div class="card-body mx-auto text-center">
                          <h5 class="card-title text-capitalize"> simple page</h5>
-                         <p class="card-text"> a simple site made with  just html and css only </p>
+                         <p class="card-text">html and css only</p>
                          <a href="https://sm-sadi.github.io/CV/ " target="_blank"> 
                              <button class="btn btn-primary"> visit</button>
                          </a>
@@ -210,13 +155,55 @@ portfolio.addEventListener("click" , function(){
                  </div>
          </div>
          <!-- end of second card  -->
+         <!-- 8th card  -->
+<div class="col-md-6 col-lg-4 my-3">
+    <div class="card">
+        <img  class="card-img-top" src="./project9.jpg" alt="first card">
+        <div class="card-body mx-auto text-center">
+            <h5 class="card-title text-capitalize"> WebDev Company</h5>
+            <p class="card-text"> WebDevcompany sample site </p>
+            <a href="https://sm-sadi.github.io/TeamProjectForSchool/" target="_blank"> 
+                <button class="btn btn-primary"> visit</button>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end of 8th  card  -->
+         <!-- 7th card  -->
+ <div class="col-md-6 col-lg-4 my-3">
+    <div class="card">
+        <img  class="card-img-top" src="./project7.jpg" alt="first card">
+        <div class="card-body mx-auto text-center">
+            <h5 class="card-title text-capitalize"> SignUp for Letter</h5>
+            <p class="card-text"> signup from using mailchimp api </p>
+            <a href="https://young-river-81395.herokuapp.com/" target="_blank"> 
+                <button class="btn btn-primary"> visit</button>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end of 7th  card  -->
+<!-- 9th card  -->
+<div class="col-md-6 col-lg-4 my-3">
+    <div class="card">
+        <img  class="card-img-top" src="./project8.jpg" alt="first card">
+        <div class="card-body mx-auto text-center">
+            <h5 class="card-title text-capitalize"> Simple List </h5>
+            <p class="card-text"> simple list taking app  </p>
+            <a href="https://sm-sadi.github.io/List-app-/" target="_blank"> 
+                <button class="btn btn-primary"> visit</button>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- end of 9th  card  -->
          <!-- third  card  -->
          <div class="col-md-6 col-lg-4 my-3">
              <div class="card">
                  <img  class="card-img-top" src="./project3.jpg" alt="first card">
                  <div class="card-body mx-auto text-center">
                      <h5 class="card-title text-capitalize"> Number Counter</h5>
-                     <p class="card-text"> simple js aplication to count numbers </p>
+                     <p class="card-text">Js number counter</p>
                      <a href="https://sm-sadi.github.io/counterProject/" target="_blank"> 
                          <button class="btn btn-primary"> visit</button>
                      </a>
@@ -275,6 +262,7 @@ portfolio.addEventListener("click" , function(){
 );
 // experience 
 experience.addEventListener("click" , function(){
+  contactData.classList.remove("showAfterClick")
   dynamicContents.innerHTML = `<section id="skills" class="bg-white py-5">
   <div class="container">
     <div class="row">
@@ -391,3 +379,100 @@ const sidebarCol= document.getElementById("sidebarCollapse");
    sidebar.classList.toggle("active");
    sidebarCol.classList.toggle("active")
  })
+
+
+
+
+
+
+
+//  fire base 
+
+
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyD6cbCg2TUBHQajwuNxkweRrbd1dty4BsM",
+  authDomain: "contact-form-1c50b.firebaseapp.com",
+  databaseURL: "https://contact-form-1c50b-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "contact-form-1c50b",
+  storageBucket: "contact-form-1c50b.appspot.com",
+  messagingSenderId: "130692679589",
+  appId: "1:130692679589:web:55c55bd7498eb5a078ca4c"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+//   firebase.initializeApp(Config);
+
+//   refernce messages collection 
+var messageRef = firebase.database().ref('/messages');
+
+//   event listeener from the from 
+const contactForm = document.getElementById("contact-form");
+const userName = document.getElementById("userName");
+const email = document.getElementById("email");
+const message = document.getElementById("message");
+
+
+
+contactForm.addEventListener("submit", handelsubmit);
+
+// handlle submit 
+function handelsubmit(Event){    
+  Event.preventDefault();
+  
+  document.getElementById("loading").classList.add("showloading")
+
+let userNameValue = userName.value;
+let emailValue = email.value
+let messageValue = message.value
+
+
+  console.log(` username : ${userNameValue} ..
+  username : ${emailValue} ..
+  username : ${messageValue} ..`);
+  // save message to database 
+  saveMessage(userNameValue, emailValue , messageValue);
+
+//  showing success 
+
+setTimeout(function(){ 
+  document.getElementById("loading").classList.remove("showloading");
+  document.getElementById("successful").classList.add("showsuccessful");
+  setTimeout(function(){ 
+      document.getElementById("successful").classList.remove("showsuccessful");  
+   }, 1000);
+}, 1000);
+
+
+  // clearing form after input is done 
+  clearForm()
+  
+}
+
+// clear from after input 
+
+function clearForm(){
+  userName.value ='';
+  email.value ='';
+  message.value='';
+ 
+}
+
+// save the message 
+function saveMessage( userNameValue , emailValue , messageValue){
+//    var newMessageRef = messageRef.push();
+  // newMessageRef.set({
+  //     name : userNameValue,
+  //     email :  emailValue,
+  //     message : messageValue
+  // }
+  // );
+  var newMessageRef = {
+          name : userNameValue,
+          email :  emailValue,
+          message : messageValue
+      }
+      messageRef.push(newMessageRef);
+     
+
+}
