@@ -277,6 +277,44 @@ experience.addEventListener("click" , function(){
     </div>
   <!--end of skill title -->
     <div class="row">
+<!--start minus one col of skills -->
+   
+    <div class="col-md-12 col-lg-6 text-center my-4">
+     
+      <h3 class=" my-3">Integration Specialist</h3>
+      <p class="text-dark"> <u>
+     
+<strong> Revolut  </strong>  (Dec,2021 - Now | Krakow, poland | Remote)
+</u>
+      </p>
+      
+        <li>Planning and executing integration engineering end-to-end, from high-level architecture down to code implementation together with our customers.</li>
+         <li>Understanding merchant requirements and communicating how Revolut can solve their business and technical challenges </li> 
+         <li>Answering customer queries</li>
+         <li>Serving as the primary, ongoing technical point of contact for our users, partners and sales teams</li>
+          <hr>
+      
+    </div>
+    <!--end of zerominus one  colom of skill -->
+    <!--start Zero col of skills -->
+   
+      <div class="col-md-12 col-lg-6 text-center my-4">
+       
+        <h3 class=" my-3">Testing, Technical Support and Implementation Specialist In PAAS</h3>
+        <p class="text-dark"> <u>
+        
+<strong>Flowize </strong>  (Feb,2021 - Nov,2021 | Amersfoort, Netherlands | Remote)
+</u>
+        </p>
+        
+          <li>Planning and Implementation of Design, Code, and API integration according to project requirements.</li>
+           <li>Testing and create reports for Developers </li> 
+           <li>Answering customer queries</li>
+           <li>Create functional and technical documentation for the PAAS platform.</li>
+            <hr>
+        
+      </div>
+      <!--end of zero colom of skill -->
       <!--start first col of skills -->
       <div class="col-md-12 col-lg-6 text-center my-4">
        
