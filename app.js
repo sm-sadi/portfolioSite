@@ -84,10 +84,11 @@ homePage.addEventListener("click" , function(){
             </h1>
             
             <p class="text-dark" >Hello, <br> 
-            My name is Showaib Mehedi Sadi and I am a <em class="text-primary">junior frontend Developer</em> . 
-            I am looking for an opportunity to code, design and learn new things. My regular goal is to code a minimum of at least 40 minutes a day and keep 
-           exploring new technologies  . I am hoping to become a full stack developer in the future. except these, I like riding a motorcycle, 
-             traveling, and watching movies.
+            My name is Showaib Mehedi Sadi.
+           My Passion for IT started 12 years ago when I got my first computer. I am still fascinated by the complexity of ones and 
+           zeros that is moving the world today. Lucky to have almost two year of experience in my desired field. Looking for opportunities where I can learn and grow.
+           I will put maximum effort to use my educational knowledge and work experience to prove my ability and performance. 
+           Except these, I like riding a motorcycle, traveling, and watching movies.
             </p>
             <br> <hr>
                             <h6 class="display-5">  <Strong class="display-5">Education :</Strong>
